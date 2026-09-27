@@ -538,3 +538,46 @@ main.flex-1 .page-content-narrow {
     display: table-footer-group;
   }
 }
+
+/* ─── Luxury Showroom Custom Utilities ─────────────────────────────── */
+.font-serif-luxury {
+  font-family: var(--font-cinzel), "Playfair Display", Georgia, serif;
+}
+
+.font-sans-clean {
+  font-family: var(--font-geist-sans), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.bg-stone-subtle {
+  background-color: #FDFCF7;
+  background-image: radial-gradient(rgba(197, 168, 128, 0.08) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+.bg-charcoal-subtle {
+  background-color: #141210;
+  background-image: radial-gradient(rgba(197, 168, 128, 0.06) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+.border-gold-accent {
+  border-color: rgba(197, 168, 128, 0.35);
+}
+
+.shadow-luxury {
+  box-shadow: 0 10px 30px -10px rgba(28, 25, 23, 0.08), 0 4px 6px -2px rgba(28, 25, 23, 0.03);
+}
+
+.shadow-luxury-hover {
+  box-shadow: 0 20px 40px -15px rgba(28, 25, 23, 0.14), 0 8px 12px -3px rgba(28, 25, 23, 0.05);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
